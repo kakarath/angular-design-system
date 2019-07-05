@@ -1,0 +1,1420 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@bellese/angular-design-system documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@bellese/angular-design-system documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>BarGraphComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/bar-graph/bar-graph.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-bar-graph</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./bar-graph.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./bar-graph.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#bars">bars</a>
+                            </li>
+                            <li>
+                                <a href="#chart">chart</a>
+                            </li>
+                            <li>
+                                <a href="#comp">comp</a>
+                            </li>
+                            <li>
+                                <a href="#customColors">customColors</a>
+                            </li>
+                            <li>
+                                <a href="#showModal">showModal</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#handleAria">handleAria</a>
+                            </li>
+                            <li>
+                                <a href="#handleColor">handleColor</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#resize">resize</a>
+                            </li>
+                            <li>
+                                <a href="#setPosition">setPosition</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#animations">animations</a>
+                            </li>
+                            <li>
+                                <a href="#barPadding">barPadding</a>
+                            </li>
+                            <li>
+                                <a href="#colorScheme">colorScheme</a>
+                            </li>
+                            <li>
+                                <a href="#compareBars">compareBars</a>
+                            </li>
+                            <li>
+                                <a href="#data">data</a>
+                            </li>
+                            <li>
+                                <a href="#dataAutoId">dataAutoId</a>
+                            </li>
+                            <li>
+                                <a href="#gradient">gradient</a>
+                            </li>
+                            <li>
+                                <a href="#id">id</a>
+                            </li>
+                            <li>
+                                <a href="#roundDomains">roundDomains</a>
+                            </li>
+                            <li>
+                                <a href="#roundEdges">roundEdges</a>
+                            </li>
+                            <li>
+                                <a href="#showGridLines">showGridLines</a>
+                            </li>
+                            <li>
+                                <a href="#showXAxis">showXAxis</a>
+                            </li>
+                            <li>
+                                <a href="#showXAxisLabel">showXAxisLabel</a>
+                            </li>
+                            <li>
+                                <a href="#showYAxis">showYAxis</a>
+                            </li>
+                            <li>
+                                <a href="#showYAxisLabel">showYAxisLabel</a>
+                            </li>
+                            <li>
+                                <a href="#title">title</a>
+                            </li>
+                            <li>
+                                <a href="#tooltipDisabled">tooltipDisabled</a>
+                            </li>
+                            <li>
+                                <a href="#view">view</a>
+                            </li>
+                            <li>
+                                <a href="#xAxisLabel">xAxisLabel</a>
+                            </li>
+                            <li>
+                                <a href="#yAxisLabel">yAxisLabel</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="animations"></a>
+                        <b>animations</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:43</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="barPadding"></a>
+                        <b>barPadding</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;20&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:39</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="colorScheme"></a>
+                        <b>colorScheme</b>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:25</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="compareBars"></a>
+                        <b>compareBars</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:35</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="data"></a>
+                        <b>data</b>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:19</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dataAutoId"></a>
+                        <b>dataAutoId</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:55</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="gradient"></a>
+                        <b>gradient</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:33</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="id"></a>
+                        <b>id</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:23</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="roundDomains"></a>
+                        <b>roundDomains</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:51</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="roundEdges"></a>
+                        <b>roundEdges</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:53</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showGridLines"></a>
+                        <b>showGridLines</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:49</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showXAxis"></a>
+                        <b>showXAxis</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:27</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showXAxisLabel"></a>
+                        <b>showXAxisLabel</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:31</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showYAxis"></a>
+                        <b>showYAxis</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:29</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showYAxisLabel"></a>
+                        <b>showYAxisLabel</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:41</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="title"></a>
+                        <b>title</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:21</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tooltipDisabled"></a>
+                        <b>tooltipDisabled</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:37</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="view"></a>
+                        <b>view</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:17</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="xAxisLabel"></a>
+                        <b>xAxisLabel</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:45</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="yAxisLabel"></a>
+                        <b>yAxisLabel</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:47</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleAria"></a>
+                    <span class="name">
+                        <b>
+                            handleAria
+                        </b>
+                        <a href="#handleAria"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleAria()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="85"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:85</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleColor"></a>
+                    <span class="name">
+                        <b>
+                            handleColor
+                        </b>
+                        <a href="#handleColor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleColor()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="74"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:74</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <b>
+                            ngAfterViewInit
+                        </b>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="62"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:62</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resize"></a>
+                    <span class="name">
+                        <b>
+                            resize
+                        </b>
+                        <a href="#resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resize()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="67"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:67</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setPosition"></a>
+                    <span class="name">
+                        <b>
+                            setPosition
+                        </b>
+                        <a href="#setPosition"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setPosition()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="103"
+                            class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:103</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="bars"></a>
+                        <span class="name">
+                            <b>
+                            bars</b>
+                            <a href="#bars"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:10</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart"></a>
+                        <span class="name">
+                            <b>
+                            chart</b>
+                            <a href="#chart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:11</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="comp"></a>
+                        <span class="name">
+                            <b>
+                            comp</b>
+                            <a href="#comp"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>AppTableModalComponent</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="customColors"></a>
+                        <span class="name">
+                            <b>
+                            customColors</b>
+                            <a href="#customColors"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showModal"></a>
+                        <span class="name">
+                            <b>
+                            showModal</b>
+                            <a href="#showModal"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/modules/bar-graph/bar-graph.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, Input, OnInit, AfterViewInit } from &#x27;@angular/core&#x27;;
+import { AppTableModalComponent } from &#x27;../table/table-modal/table-modal.component&#x27;;
+
+@Component({
+  selector: &#x27;app-bar-graph&#x27;,
+  templateUrl: &#x27;./bar-graph.component.html&#x27;,
+  styleUrls: [&#x27;./bar-graph.component.css&#x27;]
+})
+export class BarGraphComponent implements OnInit, AfterViewInit {
+  bars;
+  chart;
+  customColors;
+  showModal &#x3D; false;
+  comp &#x3D; AppTableModalComponent;
+
+  @Input()
+  view: any[];
+  @Input()
+  data;
+  @Input()
+  title: string;
+  @Input()
+  id &#x3D; 0;
+  @Input()
+  colorScheme;
+  @Input()
+  showXAxis: boolean;
+  @Input()
+  showYAxis: boolean;
+  @Input()
+  showXAxisLabel: string;
+  @Input()
+  gradient &#x3D; false;
+  @Input()
+  compareBars &#x3D; false;
+  @Input()
+  tooltipDisabled &#x3D; true;
+  @Input()
+  barPadding &#x3D; &#x27;20&#x27;;
+  @Input()
+  showYAxisLabel: string;
+  @Input()
+  animations &#x3D; true;
+  @Input()
+  xAxisLabel: string;
+  @Input()
+  yAxisLabel: string;
+  @Input()
+  showGridLines: boolean;
+  @Input()
+  roundDomains: boolean;
+  @Input()
+  roundEdges: boolean;
+  @Input()
+  dataAutoId: string;
+
+  ngOnInit() {
+    if (this.compareBars) { this.handleColor(); }
+    this.resize();
+  }
+
+  ngAfterViewInit() {
+    this.handleAria();
+    this.setPosition();
+  }
+
+  resize() {
+    const graphContainer &#x3D; document.getElementsByClassName(&#x27;mainGraphClass&#x27;)[0]
+      .clientWidth;
+    this.view &#x3D; [graphContainer, graphContainer / 2];
+    this.setPosition();
+  }
+
+  handleColor() {
+    if (this.data[0].value &lt; this.data[1].value) {
+      this.customColors &#x3D; [
+        {
+          name: &#x60;${this.data[0].name}&#x60;,
+          value: &#x27;#950000&#x27;
+        }
+      ];
+    }
+  }
+
+  handleAria() {
+    this.bars &#x3D; document.querySelectorAll(&#x27;#barGraph_&#x27; + this.id + &#x27; .bar&#x27;);
+    this.chart &#x3D; document.querySelectorAll(
+      &#x27;#barGraph_&#x27; + this.id + &#x27; .ngx-charts&#x27;
+    );
+
+    this.chart[0].setAttribute(&#x27;aria-hidden&#x27;, true);
+    // for IE/Edge
+    this.chart[0].setAttribute(&#x27;focusable&#x27;, false);
+
+    // tabindex of -1 on the bars to avoid focus inside the graph on tab
+    for (let i &#x3D; 0; i &lt; this.bars.length; i++) {
+      const parent &#x3D; this.bars[i].parentNode;
+      parent.setAttribute(&#x27;tabindex&#x27;, -1);
+      parent.setAttribute(&#x27;focusable&#x27;, false);
+    }
+  }
+
+  setPosition() {
+    if (this.showXAxis) {
+      setTimeout(() &#x3D;&gt; {
+        const tickTransform &#x3D; document.querySelectorAll(&#x27;.x.axis .tick&#x27;);
+
+        const container &#x3D; document
+          .getElementById(&#x27;valueContainer&#x27;)
+          .getBoundingClientRect().left;
+
+        Array.from(tickTransform).forEach((x, i) &#x3D;&gt; {
+          const tick &#x3D; x.getBoundingClientRect();
+          const left &#x3D; tick.left - container;
+          const width &#x3D; tick.width;
+
+          const target &#x3D; document.getElementById(&#x27;value_&#x27; + i + this.id);
+
+          target.style.left &#x3D; left + &#x27;px&#x27;;
+          target.style.width &#x3D; width + &#x27;px&#x27;;
+          target.style.display &#x3D; &#x27;inline&#x27;;
+        });
+      }, 225);
+    }
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;h2 
+class&#x3D;&quot;title&quot;&gt;
+    {{title}}
+&lt;/h2&gt;
+&lt;p class&#x3D;&quot;sr-only&quot;&gt;
+    {{title}} bar graph image
+    &lt;ng-container *ngFor&#x3D;&quot;let item of data; let i &#x3D; index&quot;&gt;
+       Bar {{ i + 1 }} {{item.name}} value is {{item.value}} 
+    &lt;/ng-container&gt;
+&lt;/p&gt;
+&lt;div 
+class&#x3D;&quot;ds-l-row mainGraphClass&quot; 
+[id]&#x3D;&quot;&#x27;barGraph_&#x27; + id&quot;
+attr.data-auto-id&#x3D;&quot;{{dataAutoId}}&quot;
+(window:resize)&#x3D;&quot;resize()&quot; 
+(window:load)&#x3D;&quot;resize()&quot;&gt;
+    &lt;ngx-charts-bar-vertical 
+    [view]&#x3D;&quot;view&quot; 
+    [scheme]&#x3D;&quot;colorScheme&quot; 
+    [results]&#x3D;&quot;data&quot;
+    [yAxis]&#x3D;&quot;showYAxis&quot;
+    [xAxis]&#x3D;&quot;showXAxis&quot; 
+    [showYAxisLabel]&#x3D;&quot;showYAxisLabel&quot; 
+    [xAxisLabel]&#x3D;&quot;xAxisLabel&quot; 
+    [yAxisLabel]&#x3D;&quot;yAxisLabel&quot; 
+    [animations]&#x3D;&quot;animations&quot;
+    [showGridLines]&#x3D;&quot;showGridLines&quot; 
+    [roundDomains]&#x3D;&quot;roundDomains&quot; 
+    [gradient]&#x3D;&quot;gradient&quot; 
+    [roundEdges]&#x3D;&quot;roundEdges&quot;
+    [tooltipDisabled]&#x3D;&quot;true&quot;
+    [customColors]&#x3D;&quot;customColors&quot;
+    [barPadding]&#x3D;&quot;barPadding&quot;&gt;
+&lt;!--
+        &lt;ng-template #tooltipTemplate let-model&#x3D;&quot;model&quot;&gt;
+            &lt;div role&#x3D;&quot;tooltip&quot; class&#x3D;&quot;tooltip&quot;&gt;
+               {{model.name}} : 
+               {{model.value &#x3D;&#x3D;&#x3D; &quot;&quot; ? &quot;N/A&quot; : model.value}}
+            &lt;/div&gt;
+        &lt;/ng-template&gt;
+--&gt;
+    &lt;/ngx-charts-bar-vertical&gt;
+&lt;/div&gt;
+
+&lt;div *ngIf&#x3D;&quot;showXAxis&quot; aria-hidden&#x3D;&quot;true&quot; id&#x3D;&quot;valueContainer&quot;&gt;
+    &lt;span class&#x3D;&quot;tickMarkers&quot; *ngFor&#x3D;&quot;let val of data; let i &#x3D; index&quot; [id]&#x3D;&quot;&#x27;value_&#x27; + i + id&quot;&gt;
+        &lt;div *ngIf&#x3D;&quot;val.value &#x3D;&#x3D;&#x3D; &#x27;&#x27; &amp;&amp; val.modal&quot;&gt;
+            &lt;app-modal
+                [modalData]&#x3D;&quot;val.modal&quot;
+                [modalComponent]&#x3D;&quot;comp&quot;
+                [buttonClass]&#x3D;&quot;&#x27;tableCell&#x27;&quot;
+                [content]&#x3D;&quot;&#x27;N/A*&#x27;&quot;
+                [id]&#x3D;&quot;&#x27;col_&#x27; + i + id&quot;
+                [modalTitle]&#x3D;&quot;val.modalTitle&quot;&gt;
+            &lt;/app-modal&gt;
+        &lt;/div&gt;
+        &lt;div *ngIf&#x3D;&quot;val.value &#x3D;&#x3D;&#x3D; &#x27;&#x27; &amp;&amp; !val.modal&quot;&gt;
+            N/A
+        &lt;/div&gt;
+        &lt;div *ngIf&#x3D;&quot;val.value !&#x3D;&#x3D; &#x27;&#x27; &amp;&amp; val.modal; else noModal&quot;&gt;
+            &lt;app-modal
+                [modalData]&#x3D;&quot;val.modal&quot;
+                [modalComponent]&#x3D;&quot;comp&quot;
+                [buttonClass]&#x3D;&quot;&#x27;tableCell&#x27;&quot;
+                [content]&#x3D;&quot;val.value + &#x27;*&#x27;&quot;
+                [id]&#x3D;&quot;&#x27;col_&#x27; + i + id&quot;
+                [modalTitle]&#x3D;&quot;val.modalTitle&quot;&gt;
+            &lt;/app-modal&gt;
+        &lt;/div&gt;
+        &lt;ng-template #noModal&gt;
+            {{val.value}}
+        &lt;/ng-template&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div id&#x3D;&quot;nameContainer&quot; aria-hidden&#x3D;&quot;true&quot; *ngIf&#x3D;&quot;showXAxisLabel&quot; class&#x3D;&quot;x-axis-label&quot;&gt;
+    {{xAxisLabel}}
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./bar-graph.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.title {
+    color: #212121;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.ds-l-col {
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footnote {
+    font-size: 25px;
+    color: #00A6D2;
+}
+
+
+.ds-l-row.values  {
+    margin-right: 0;
+}
+
+.tooltip {
+    padding: 20px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.tickMarkers {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31.2px;
+}
+
+:host ::ng-deep .tableCell {
+    font-size: 24px !important;
+}
+
+span[id^&#x3D;&quot;value_&quot;] {
+    display:none;
+}
+
+#valueContainer {
+    position: relative;
+}
+
+.x-axis-label {
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+
+:host ::ng-deep .x.axis .tick text {
+    font-size: 16px !important;
+}
+
+
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><h2 class="title">    {{title}}</h2><p class="sr-only">    {{title}} bar graph image    <ng-container *ngFor="let item of data; let i = index">       Bar {{ i + 1 }} {{item.name}} value is {{item.value}}     </ng-container></p><div class="ds-l-row mainGraphClass" [id]="\'barGraph_\' + id"attr.data-auto-id="{{dataAutoId}}"(window:resize)="resize()" (window:load)="resize()">    <ngx-charts-bar-vertical     [view]="view"     [scheme]="colorScheme"     [results]="data"    [yAxis]="showYAxis"    [xAxis]="showXAxis"     [showYAxisLabel]="showYAxisLabel"     [xAxisLabel]="xAxisLabel"     [yAxisLabel]="yAxisLabel"     [animations]="animations"    [showGridLines]="showGridLines"     [roundDomains]="roundDomains"     [gradient]="gradient"     [roundEdges]="roundEdges"    [tooltipDisabled]="true"    [customColors]="customColors"    [barPadding]="barPadding"><!--        <ng-template #tooltipTemplate let-model="model">            <div role="tooltip" class="tooltip">               {{model.name}} :                {{model.value === "" ? "N/A" : model.value}}            </div>        </ng-template>-->    </ngx-charts-bar-vertical></div><div *ngIf="showXAxis" aria-hidden="true" id="valueContainer">    <span class="tickMarkers" *ngFor="let val of data; let i = index" [id]="\'value_\' + i + id">        <div *ngIf="val.value === \'\' && val.modal">            <app-modal                [modalData]="val.modal"                [modalComponent]="comp"                [buttonClass]="\'tableCell\'"                [content]="\'N/A*\'"                [id]="\'col_\' + i + id"                [modalTitle]="val.modalTitle">            </app-modal>        </div>        <div *ngIf="val.value === \'\' && !val.modal">            N/A        </div>        <div *ngIf="val.value !== \'\' && val.modal; else noModal">            <app-modal                [modalData]="val.modal"                [modalComponent]="comp"                [buttonClass]="\'tableCell\'"                [content]="val.value + \'*\'"                [id]="\'col_\' + i + id"                [modalTitle]="val.modalTitle">            </app-modal>        </div>        <ng-template #noModal>            {{val.value}}        </ng-template>    </span></div><div id="nameContainer" aria-hidden="true" *ngIf="showXAxisLabel" class="x-axis-label">    {{xAxisLabel}}</div></div>'
+    var COMPONENTS = [{'name': 'AlertComponent', 'selector': 'app-alert'},{'name': 'AppAccordionComponent', 'selector': 'app-accordion'},{'name': 'AppButtonComponent', 'selector': 'app-button'},{'name': 'AppCardClusterComponent', 'selector': 'app-card-cluster'},{'name': 'AppCheckBoxComponent', 'selector': 'app-check-box'},{'name': 'AppCircleGraphComponent', 'selector': 'app-circle-graph'},{'name': 'AppDatepickerComponent', 'selector': 'app-date-picker'},{'name': 'AppDropDownComponent', 'selector': 'app-drop-down'},{'name': 'AppLineGraphComponent', 'selector': 'app-line-graph'},{'name': 'AppModalComponent', 'selector': 'app-modal'},{'name': 'AppModalShellComponent', 'selector': 'app-modal-shell'},{'name': 'AppPaginationComponent', 'selector': 'app-paging'},{'name': 'AppPanelComponent', 'selector': 'app-panel'},{'name': 'AppPlusComponent', 'selector': 'app-plus'},{'name': 'AppTableComponent', 'selector': 'app-table'},{'name': 'AppTableDataComponent', 'selector': '[app-table-data]'},{'name': 'AppTableHeaderComponent', 'selector': '[app-table-header]'},{'name': 'AppTableModalComponent', 'selector': 'app-table-modal'},{'name': 'AppTableRowComponent', 'selector': '[app-table-row]'},{'name': 'AppTextFieldComponent', 'selector': 'app-text-field'},{'name': 'AppTicketComponent', 'selector': 'app-ticket'},{'name': 'BarGraphComponent', 'selector': 'app-bar-graph'},{'name': 'DownloadQueComponent', 'selector': 'app-download-que'},{'name': 'SearchFieldComponent', 'selector': 'app-search-field'},{'name': 'SpinnerComponent', 'selector': 'app-spinner'},{'name': 'StarComponent', 'selector': 'app-star'},{'name': 'StarRatingComponent', 'selector': 'app-star-rating'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'BarGraphComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'BarGraphComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,897 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@bellese/angular-design-system documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@bellese/angular-design-system documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>AppCardClusterComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/card-cluster/card-cluster.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-card-cluster</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./card-cluster.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./card-cluster.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#mainCardWidth">mainCardWidth</a>
+                            </li>
+                            <li>
+                                <a href="#numArray">numArray</a>
+                            </li>
+                            <li>
+                                <a href="#numArray1">numArray1</a>
+                            </li>
+                            <li>
+                                <a href="#total">total</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#passAction">passAction</a>
+                            </li>
+                            <li>
+                                <a href="#resize">resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#buttonClicked">buttonClicked</a>
+                            </li>
+                            <li>
+                                <a href="#cardArray">cardArray</a>
+                            </li>
+                            <li>
+                                <a href="#dataAutoId">dataAutoId</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#passButton">passButton</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="buttonClicked"></a>
+                        <b>buttonClicked</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;CardCluster0&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:15</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cardArray"></a>
+                        <b>cardArray</b>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:10</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dataAutoId"></a>
+                        <b>dataAutoId</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:11</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="passButton"></a>
+                        <b>passButton</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:13</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="28"
+                            class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:28</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="passAction"></a>
+                    <span class="name">
+                        <b>
+                            passAction
+                        </b>
+                        <a href="#passAction"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>passAction(e)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="23"
+                            class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:23</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>e</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resize"></a>
+                    <span class="name">
+                        <b>
+                            resize
+                        </b>
+                        <a href="#resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resize()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="99"
+                            class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:99</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="mainCardWidth"></a>
+                        <span class="name">
+                            <b>
+                            mainCardWidth</b>
+                            <a href="#mainCardWidth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="numArray"></a>
+                        <span class="name">
+                            <b>
+                            numArray</b>
+                            <a href="#numArray"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="numArray1"></a>
+                        <span class="name">
+                            <b>
+                            numArray1</b>
+                            <a href="#numArray1"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="total"></a>
+                        <span class="name">
+                            <b>
+                            total</b>
+                            <a href="#total"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/modules/card-cluster/card-cluster.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+
+    @Component({
+        selector: &#x27;app-card-cluster&#x27;,
+        templateUrl: &#x27;./card-cluster.component.html&#x27;,
+        styleUrls: [&#x27;./card-cluster.component.css&#x27;]
+    })
+export class AppCardClusterComponent implements OnInit {
+
+    @Input() cardArray;
+    @Input() dataAutoId: string;
+
+    @Output() passButton &#x3D; new EventEmitter&lt;any&gt;();
+
+    @Input() buttonClicked &#x3D; &#x27;CardCluster0&#x27;;
+    numArray1 &#x3D; [];
+    numArray &#x3D; [];
+    total: number &#x3D; null;
+    mainCardWidth: number;
+
+    constructor() { }
+
+    passAction(e) {
+        this.passButton.emit(e);
+        this.buttonClicked &#x3D; e.target.id;
+    }
+
+    ngOnInit() {
+
+        // determine width of main card
+        // the main card will display as full width if there are no other cards, otherwise it will be 3 columns wide
+        if (this.cardArray.cluster.length &#x3D;&#x3D;&#x3D; 0) {
+            this.mainCardWidth &#x3D; 12;
+        } else {
+            this.mainCardWidth &#x3D; 4;
+        }
+
+        // total
+        this.cardArray.cluster.map( x &#x3D;&gt; {
+            (x.value &amp;&amp; typeof x.value &#x3D;&#x3D;&#x3D; &#x27;number&#x27;) ? this.total +&#x3D; x.value : null;
+        });
+
+        // sequence 1 is for desktop layout
+
+        // If there are less than 8 cards, distribute the cards evenly between two rows.
+        // If there is an odd number of cards, show the extra card in the top row
+        if (this.cardArray.cluster.length &lt;&#x3D; 8) {
+            this.cardArray.cluster.map( (x, ind) &#x3D;&gt; {
+                let seq: number;
+                if ((ind + 1) &lt;&#x3D; Math.ceil(this.cardArray.cluster.length / 2)) {
+                    seq &#x3D; 12 / Math.ceil(this.cardArray.cluster.length / 2);
+                } else {
+                    seq &#x3D; 12 / Math.floor(this.cardArray.cluster.length / 2);
+                }
+                this.numArray1.push(Object.assign({sequence: seq}, x));
+            });
+
+        // if the card amount is a multiple of 3 or 4, distribute them evenly
+        } else if (this.cardArray.cluster.length % 4 &#x3D;&#x3D;&#x3D; 0 || this.cardArray.cluster.length % 3 &#x3D;&#x3D;&#x3D; 0) {
+            this.cardArray.cluster.map( x &#x3D;&gt; {
+                if (this.cardArray.cluster.length % 3 &#x3D;&#x3D;&#x3D; 0 &amp;&amp; this.cardArray.cluster.length % 4 !&#x3D;&#x3D; 0) {
+                    this.numArray1.push(Object.assign({sequence: 4}, x));
+                } else {
+                    this.numArray1.push(Object.assign({sequence: 3}, x));
+                }
+            });
+
+        // For all other situations, show 4 cards per row
+        } else {
+            const rows &#x3D; Math.floor(this.cardArray.cluster.length / 4);
+            this.cardArray.cluster.map( (x, ind) &#x3D;&gt; {
+                if ((ind + 1) &lt;&#x3D; rows * 4) {
+                    this.numArray1.push(Object.assign({sequence: 3}, x));
+                } else {
+                    const seq &#x3D; 12 / (this.cardArray.cluster.length % 4);
+                    this.numArray1.push(Object.assign({sequence: seq}, x));
+                }
+            });
+        }
+
+        // sequence 2 is for mobile layout
+        if (this.numArray1.length % 2 &#x3D;&#x3D;&#x3D; 0) {
+            this.numArray1.map( x &#x3D;&gt; {
+                this.numArray.push(Object.assign({sequence2: 6}, x));
+            });
+        } else {
+            const rows &#x3D; Math.floor(this.numArray1.length / 2);
+            this.numArray1.map( (x, ind) &#x3D;&gt; {
+                if ((ind + 1) &lt;&#x3D; rows * 2) {
+                    this.numArray.push(Object.assign({sequence2: 6}, x));
+                } else {
+                    const seq &#x3D; 12 / (this.cardArray.cluster.length % 2);
+                    this.numArray.push(Object.assign({sequence2: seq}, x));
+                }
+            });
+        }
+    }
+
+    resize() {
+        setTimeout(() &#x3D;&gt; {
+            const graphContainer &#x3D; window.outerWidth;
+
+            if (this.cardArray.mainCard &amp;&amp; graphContainer &gt;&#x3D; 768) {
+                const followHeight &#x3D; document.getElementById(&#x27;followCard&#x27;).clientHeight - 86;
+                document.getElementById(&#x27;CardCluster0&#x27;).style.height &#x3D; followHeight + &#x27;px&#x27;;
+            } else if (this.cardArray.mainCard &amp;&amp; graphContainer &lt; 768) {
+                document.getElementById(&#x27;CardCluster0&#x27;).style.height &#x3D; &#x27;auto&#x27;;
+            }
+        }, 250);
+    }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div id&#x3D;&quot;cardClusterComponent&quot; attr.data-auto-id&#x3D;&quot;{{dataAutoId}}&quot;
+    class&#x3D;&quot;ds-l-row ds-u-justify-content--center ds-u-align-items--center ds-u-padding--1&quot; (window:resize)&#x3D;&quot;resize()&quot;
+    (window:load)&#x3D;&quot;resize()&quot;&gt;
+
+    &lt;div *ngIf&#x3D;&quot;cardArray.mainCard&quot; class&#x3D;&quot;ds-l-lg-col--{{ mainCardWidth }} ds-l-md-col--12 ds-l-sm-col--12&quot;&gt;
+        &lt;div role&#x3D;&quot;button&quot; tabindex&#x3D;&quot;0&quot; id&#x3D;&quot;CardCluster0&quot; [ngClass]&#x3D;&quot;buttonClicked &#x3D;&#x3D;&#x3D; &#x27;CardCluster0&#x27; ? &#x27;active&#x27;: null&quot;
+            class&#x3D;&quot;ds-u-margin-bottom--2 no-Margin-Bottom pointer card ds-u-padding-top--4 ds-u-padding-bottom--4 ds-u-padding-x--2&quot;
+            (click)&#x3D;&quot;passAction($event)&quot; (keyup.enter)&#x3D;&quot;passAction($event)&quot;&gt;
+            &lt;div class&#x3D;&quot;ds-u-font-size--h1 ds-u-color--black noPoint&quot;&gt;
+                {{ cardArray.mainTitle || &#x27;&amp;nbsp;&#x27;  }}
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;ds-u-font-size--h2 ds-u-color--black ds-u-font-weight--bold noPoint&quot;&gt;
+                {{ cardArray.total || total || &#x27;&amp;nbsp;&#x27; }}
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;ds-u-font-size--h3 ds-u-color--black noPoint&quot;&gt;
+                {{ cardArray.mainSub || &#x27;&amp;nbsp;&#x27; }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div *ngIf&#x3D;&quot;numArray.length&quot; [ngClass]&#x3D;&quot;cardArray.mainCard ? &#x27;ds-l-lg-col--8 ds-l-md-col--12&#x27;: &#x27;ds-l-lg-col--12 ds-l-md-col--12&#x27;&quot;
+        class&#x3D;&quot;ds-l-sm-col--12&quot; id&#x3D;&quot;followCard&quot;&gt;
+        &lt;div class&#x3D;&quot;ds-l-row&quot;&gt;
+            &lt;div *ngFor&#x3D;&quot;let num of numArray; let x &#x3D; index;&quot;
+                [ngClass]&#x3D;&quot;&#x27;padding-L-0 ds-l-lg-col--&#x27; + num.sequence + &#x27; ds-l-md-col--&#x27; + num.sequence + &#x27; ds-l-sm-col--&#x27; + num.sequence2 + &#x27; ds-l-col--&#x27; + num.sequence2&quot;&gt;
+                &lt;div id&#x3D;&quot;{{&#x27;CardCluster&#x27;+(x+1)}}&quot; [ngClass]&#x3D;&quot;buttonClicked &#x3D;&#x3D;&#x3D; &#x27;CardCluster&#x27;+(x+1) ? &#x27;active&#x27;: null&quot;
+                    class&#x3D;&quot;{{&#x27;pointer card cardHeight ds-u-padding--1 ds-u-margin-bottom--2 &#x27; + num.classButton}}&quot;
+                    (click)&#x3D;&quot;passAction($event)&quot; (keyup.enter)&#x3D;&quot;passAction($event)&quot; role&#x3D;&quot;button&quot; tabindex&#x3D;&quot;0&quot;&gt;
+                    &lt;div class&#x3D;&quot;ds-u-font-size--h3 ds-u-color--black ds-u-font-weight--bold noPoint&quot;
+                        [ngClass]&#x3D;&quot;num.classValue&quot;&gt;
+                        {{ !num.value &amp;&amp; num.value !&#x3D;&#x3D; 0 ? &#x27;&amp;nbsp;&#x27; : num.value }}
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;ds-text ds-u-color--black noPoint&quot; [ngClass]&#x3D;&quot;num.className&quot;&gt;
+                        {{ !num.name &amp;&amp; num.name !&#x3D;&#x3D; 0 ? &#x27;&amp;nbsp;&#x27; : num.name }}
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./card-cluster.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.subText {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom:16px;
+}
+
+.noPoint {
+    pointer-events: none;
+}
+
+.active {
+    border-top: 6px solid #4C2C92 !important;
+    box-shadow: 0px 4px 9px #d9d9d9 !important;
+}
+
+.card {
+    border-top: 6px solid #A5E9FF;
+    box-shadow: 0px 4px 6px #F1F1F1;
+    transition: all 200ms cubic-bezier(.25,.8,.25,1);
+/*    min-height: 93px;*/
+}
+
+.card:hover {
+    border-top: 6px solid #00A6D2;
+    box-shadow: 0px 4px 9px #d9d9d9;
+}
+
+.cardHeight {
+    height: 76px;
+    overflow: hidden;
+}
+
+.ds-text {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .padding-L-0:nth-child(even) {
+        padding-left: 0;
+    }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div id="cardClusterComponent" attr.data-auto-id="{{dataAutoId}}"    class="ds-l-row ds-u-justify-content--center ds-u-align-items--center ds-u-padding--1" (window:resize)="resize()"    (window:load)="resize()">    <div *ngIf="cardArray.mainCard" class="ds-l-lg-col--{{ mainCardWidth }} ds-l-md-col--12 ds-l-sm-col--12">        <div role="button" tabindex="0" id="CardCluster0" [ngClass]="buttonClicked === \'CardCluster0\' ? \'active\': null"            class="ds-u-margin-bottom--2 no-Margin-Bottom pointer card ds-u-padding-top--4 ds-u-padding-bottom--4 ds-u-padding-x--2"            (click)="passAction($event)" (keyup.enter)="passAction($event)">            <div class="ds-u-font-size--h1 ds-u-color--black noPoint">                {{ cardArray.mainTitle || \'&nbsp;\'  }}            </div>            <div class="ds-u-font-size--h2 ds-u-color--black ds-u-font-weight--bold noPoint">                {{ cardArray.total || total || \'&nbsp;\' }}            </div>            <div class="ds-u-font-size--h3 ds-u-color--black noPoint">                {{ cardArray.mainSub || \'&nbsp;\' }}            </div>        </div>    </div>    <div *ngIf="numArray.length" [ngClass]="cardArray.mainCard ? \'ds-l-lg-col--8 ds-l-md-col--12\': \'ds-l-lg-col--12 ds-l-md-col--12\'"        class="ds-l-sm-col--12" id="followCard">        <div class="ds-l-row">            <div *ngFor="let num of numArray; let x = index;"                [ngClass]="\'padding-L-0 ds-l-lg-col--\' + num.sequence + \' ds-l-md-col--\' + num.sequence + \' ds-l-sm-col--\' + num.sequence2 + \' ds-l-col--\' + num.sequence2">                <div id="{{\'CardCluster\'+(x+1)}}" [ngClass]="buttonClicked === \'CardCluster\'+(x+1) ? \'active\': null"                    class="{{\'pointer card cardHeight ds-u-padding--1 ds-u-margin-bottom--2 \' + num.classButton}}"                    (click)="passAction($event)" (keyup.enter)="passAction($event)" role="button" tabindex="0">                    <div class="ds-u-font-size--h3 ds-u-color--black ds-u-font-weight--bold noPoint"                        [ngClass]="num.classValue">                        {{ !num.value && num.value !== 0 ? \'&nbsp;\' : num.value }}                    </div>                    <div class="ds-text ds-u-color--black noPoint" [ngClass]="num.className">                        {{ !num.name && num.name !== 0 ? \'&nbsp;\' : num.name }}                    </div>                </div>            </div>        </div>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AlertComponent', 'selector': 'app-alert'},{'name': 'AppAccordionComponent', 'selector': 'app-accordion'},{'name': 'AppButtonComponent', 'selector': 'app-button'},{'name': 'AppCardClusterComponent', 'selector': 'app-card-cluster'},{'name': 'AppCheckBoxComponent', 'selector': 'app-check-box'},{'name': 'AppCircleGraphComponent', 'selector': 'app-circle-graph'},{'name': 'AppDatepickerComponent', 'selector': 'app-date-picker'},{'name': 'AppDropDownComponent', 'selector': 'app-drop-down'},{'name': 'AppLineGraphComponent', 'selector': 'app-line-graph'},{'name': 'AppModalComponent', 'selector': 'app-modal'},{'name': 'AppModalShellComponent', 'selector': 'app-modal-shell'},{'name': 'AppPaginationComponent', 'selector': 'app-paging'},{'name': 'AppPanelComponent', 'selector': 'app-panel'},{'name': 'AppPlusComponent', 'selector': 'app-plus'},{'name': 'AppTableComponent', 'selector': 'app-table'},{'name': 'AppTableDataComponent', 'selector': '[app-table-data]'},{'name': 'AppTableHeaderComponent', 'selector': '[app-table-header]'},{'name': 'AppTableModalComponent', 'selector': 'app-table-modal'},{'name': 'AppTableRowComponent', 'selector': '[app-table-row]'},{'name': 'AppTextFieldComponent', 'selector': 'app-text-field'},{'name': 'AppTicketComponent', 'selector': 'app-ticket'},{'name': 'BarGraphComponent', 'selector': 'app-bar-graph'},{'name': 'DownloadQueComponent', 'selector': 'app-download-que'},{'name': 'SearchFieldComponent', 'selector': 'app-search-field'},{'name': 'SpinnerComponent', 'selector': 'app-spinner'},{'name': 'StarComponent', 'selector': 'app-star'},{'name': 'StarRatingComponent', 'selector': 'app-star-rating'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AppCardClusterComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppCardClusterComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

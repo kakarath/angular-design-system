@@ -12,6 +12,7 @@
   ],
   "include": [
     "polyfills.ts",
-    "main.ts"
+    "main.ts",
+    "./app/modules/**/*"
   ]
 }

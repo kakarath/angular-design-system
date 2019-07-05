@@ -11,6 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json && cp -r ./src/assets ./dist/src/assets",
+    "compodoc": "npx compodoc -p src/tsconfig.app.json",
+    "compodoc-serve": "npx compodoc -p src/tsconfig.app.json",
     "repository": {
       "type": "git",
       "url": "https://github.com/Bellese/angular-design-system.git"
